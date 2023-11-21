@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+ <style>
+
+    *{
+        margin: 0px;
+    }
+    .main{
+        height: 3087px;
+        width: 100%;
+        /* border: solid 2px black; */
+    }
+    main{
+        height: 399px;
+        width: 1170px;
+        position: absolute;
+        top: 2276px;
+        left: 91px; 
+        /* border: solid 2px red; */
+    }
+    header{
+        height: 1025px;
+        width: 100%;
+        /* border: solid 2px green; */
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    
+    }
+    .para{
+        position: absolute;
+width: 605px;
+height: 192px;
+left: 435px;
+top: 154px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+    }
+    .a10{
+        position: absolute;
+width: 289.5px;
+height: 8.61px;
+left: 445px;
+top: 346px;
+
+/* border: 6px solid #F6B50E; */
+
+    }
+    .a11{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 10px;
+gap: 10px;
+
+position: absolute;
+width: 203px;
+height: 60px;
+left: 516px;
+top: 400px;
+
+background: #F6B50E;
+    }
+    .a12{
+        position: absolute;
+width: 67px;
+height: 24px;
+left: 138px;
+top: 59px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+
+text-align: center;
+
+color: #FFFFFF;
+  /* #navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+    position: relative;
+}
+    }
+    #navbar-container {
+        border: solid 2px blue;
+    display: flex;
+}
+
+#navbar-list {
+    display: flex;
+    list-style-type: none;
+    transition: all 0.4s linear;
+}
+
+.navbar-links {
+    border: solid 2px red;
+    position: absolute;
+    top: 58px;
+    left: 494px;
+    padding: 20px;
+    margin: 0px 35px;
+    font-weight: 600;
+    /* font-size: 20px; */
+} 
+
+
+    
+    main-content{
+        height: 1400px;
+        width: 100%;
+        /* border: solid 2px blue; */
+        position: absolute;
+        top: 1025px;
+        left: 0px;
+    }
+    article1{
+        height: 363px;
+        width: 270px;
+        /* border: solid 2px none; */
+        position: absolute;
+        left: 89px;
+        top: 211px;
+    }
+    .a1{
+        position: absolute;
+        top: 140px;
+        left: 54px;
+    }
+    .a2{
+        position: absolute;
+        top: 140px;
+        left: 54px;
+    }
+    .a3{
+        position: absolute;
+        top: 99px;
+        left: 1px;
+    }
+    .a4{
+        position: absolute;
+        top: 138px;
+        left: 21px;
+    }
+    article2{
+        height: 363px;
+        width: 270px;
+        border: solid 2px none;
+        position: absolute;
+        left: 388px;
+        top: 211px;
+    }
+    article3{
+        height: 363px;
+        width: 270px;
+        border: solid 2px none;
+        position: absolute;
+        left: 687px;
+        top: 211px;
+    }
+    article4{
+        height: 363px;
+        width: 270px;
+        border: solid 2px none;
+        position: absolute;
+        left: 986px;
+        top: 211px;
+    }
+
+    h4{
+        position: absolute;
+left: 32.59%;
+right: 34.07%;
+top: 14.17%;
+bottom: 75.48%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+    }
+    .a5{
+        position: absolute;
+width: 644px;
+height: 425px;
+left: 139px;
+top: 716px;
+
+    }
+    h3{
+    /* border: solid 2px red; */
+    position: absolute;
+width: 480px;
+height: 38px;
+left: 140px;
+top: 84px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 100%;
+
+text-align: center;
+
+color: #000000;
+
+    }
+    .a6{
+        
+position: absolute;
+width: 289.5px;
+height: 8.61px;
+left: 277px;
+top: 143px;
+
+
+    }
+    p{
+        position: absolute;
+width: 54px;
+height: 16px;
+left: 1192px;
+top: 103px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+
+
+text-align: center;
+
+color: #000000;
+
+    }
+    p1{
+        position: absolute;
+width: 298px;
+height: 92px;
+left: 819px;
+top: 760px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+
+
+text-align: center;
+
+color: #000000;
+
+    }
+    p2{
+        
+position: absolute;
+width: 328px;
+height: 72px;
+left: 839px;
+top: 906px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+
+
+
+color: #686767;
+
+    }
+    .a7{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+width: 214px;
+height: 58px;
+left: 839px;
+top: 1004px;
+
+background: #F6B50E;
+    }
+    footer{
+        height: 662px;
+        width: 100%;
+        /* border: solid 2px orange; */
+        position: absolute;
+        top: 2425px;
+        left: 0px;
+        background-color: #29795A;
+    }
+    section1{
+        height: 184px;
+        width: 255px;
+        position: absolute;
+        top: 359px;
+        left: 166px;
+        /* border: solid 2px red; */
+    }
+    .article-1{
+        position: absolute;
+    
+    }
+    section2{
+        height: 184px;
+        width: 255px;
+        position: absolute;
+        top: 359px;
+        left: 441px;
+        /* border: solid 2px red; */
+    }
+    section3{
+        height: 184px;
+        width: 255px;
+        position: absolute;
+        top: 359px;
+        left: 726px;
+        /* border: solid 2px red; */
+    }
+    section4{
+        height: 184px;
+        width: 255px;
+        position: absolute;
+        top: 359px;
+        left: 1011px;
+        /* border: solid 2px red; */
+    }
+    h6{
+        font-size:  30px;
+        color: white;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    ul li{
+        list-style: none;
+        font-size: 18px;
+        font-family: cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align:start;
+        margin-left: -40px;
+        margin-top: 30px;
+        color: white;
+    }
+    .a8{
+        position: absolute;
+left: 1021px;
+top: 411px;
+
+background: #000000;
+    }
+    .a9{
+        position: absolute;
+left: 1022.05px;
+top: 476.04px;
+
+background-color: #29795A;
+    }
+    @media screen and (max-width:1100px) {
+        .article-4{
+            display:none;
+        }
+        .Lamp{
+            display: none;
+        }
+        .a4{display: none;
+        }
+       .footer-section4{
+        display: none;
+       } 
+       .a8{
+        display: none;
+       }
+       .a9{
+        display: none;
+       }
+       .footer-image{
+        display: none;
+       }
+    
+    }
+    @media screen and (max-width:1250px) {
+        .footer-image{
+            display: none;
+        }
+        .article-4{
+            display:none;
+        }
+        .Lamp{
+            display: none;
+        }
+        .a4{display: none;
+        }
+    }
+    @media screen and (max-width:1000px) {
+        .highlight{
+            display: none;
+        }
+        .content{
+            display: none;
+        }
+        .a7{
+            display: none;
+
+        }
+        
+    }
+    @media screen and (max-width:950px) {
+        .article-3{
+            display: none;
+        }
+        .Table{
+            display: none;
+        }
+        .a3{
+            display: none;
+        }
+        
+    }
+   
+ </style>
+<body>
+
+  
+    <div class="main">
+        <!-- <nav class="navbar ">
+            <div class="container-fluid">
+                <ul class="bar">
+                    <li>
+              <a class="navbar-brand" href="#">Furniture</a>
+              </li>
+              
+               
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Interior Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Property</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" > Categories</a>
+                  </li>
+                </ul>
+                    
+            </div>
+          </nav>      -->
+    </div>
+    <header >
+        <img class="main-img" src="img./green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering 1.PNG" height="1025px" width="100%" alt="">
+    <p3 class="para"> Discover The Best <br> Furniture for You!</p3>
+    <img class="a10" src="img./Vector 4.PNG" height="8.61px"  width="289.5px" alt="">
+    <img class="a11" src="img./Frame 6.PNG" height="60px" width="203px" alt="">
+    <img  class="a12" src="img./Interio..PNG" height="24px" width="67px" alt="">
+    <!-- <nav id="navbar">
+   <div id="navbar-container">
+   <ul id="navbar-list" >
+    <li class="navbar-links">Furniture</li>
+    <li class="navbar-links"> Interior Design</li>
+    <li class="navbar-links"> Property</li>
+    <li class="navbar-links">Categories</li>
+   </ul>
+    </div>
+    </nav> -->
+    </header>
+    <main-content>
+        <article1>
+            <img  class="article-1" src="img./Rectangle 10 (1).PNG" height="363px" width="270px" alt="">
+            <h4 class="Chair"> Chair</h4>
+            <img  class="a1" src="img./PngItem32847 3.PNG" height="227px" width="161px"
+             alt="">
+
+        </article1>
+        <article2> <img  class="article-2" src="img./Rectangle 10 (2).PNG" height="363px" width="270px" alt="">
+            <h4 class="Cabinet"> Cabinet</h4>
+            <img  class="a2" src="img./filing-cabinet-furniture-drawer-mailbox-letterbox-transparent-png-549040 2.PNG" height="242px w
+            171px" alt="">
+        </article2>
+        <article3> <img  class="article-3" src="img./Rectangle 10 (3).PNG" height="363px" width="270px" alt="">
+            <h4 class="Table">Table</h4>
+            <img  class="a3" src="img./pngwing 2.PNG" height="268px" width="268px" alt="">
+        </article3>
+        <article4> <img class="article-4" src="img./Rectangle 10 (4).PNG" height="363px" width="270px" alt="">
+            <h4 class="Lamp"> Lamp</h4>
+            <img class="a4" src="img./0914349PE783949S5 2.PNG" height="225px"
+            width="225px" alt="">
+        </article4>
+         <img class="a5" src="img./image 2.PNG" height="425px" width="644px" alt="">
+         <h3 class="headline"> Shop  Popular Categories</h3>
+         <img class="a6" src="img./Vector 6 (1).PNG" height="8.61px" width="289.5px" alt="">
+         <p class="button">  See All </p>
+         <p1 class="highlight"> Simple Bed for <br> Your Weekend </p1>
+         <p2 class="content"> Enjoy your weekends with your <br> families using our lastest Simple <br> Bed set! </p2>
+         <img class="a7" src="img./Frame 6.PNG" height="58px" width="214px" alt="">
+    </main-content>
+    <footer>
+        <section1 class="footer-section1">
+          <h6 > Company</h6>
+          <ul class="article-1">
+            <li>About Us</li>
+            <li> Blog</li>
+            <li> Careers</li>
+            <li>Contact Us</li>
+          </ul>
+        </section1>
+        <section2 class="footer-section2">
+            <h6> Support </h6>
+            <ul> 
+                <li>Help Center</li>
+                <li> Safety Center</li>
+                <li> Community Guidelines</li>
+            </ul>
+        </section2>
+        <section3 class="footer-section3">
+            <h6> Legal</h6>
+            <ul>
+                <li>Cookies Policy</li>
+                <li> Privacy Policy</li>
+                <li> Terms of Services</li>
+                <li> Low Enforcement</li>
+            </ul>
+        </section3>
+        <section4 class="footer-section4">
+            <h6> Install App</h6>
+        </section4>     
+        <img  class="a8" src="img./google play.PNG" height="48px" width="162px" alt="">
+        <img class="a9" src="img./app store.PNG" height="45.91px" width="159.91px" alt="">
+    
+    </footer>
+    <main>
+        <img  class="footer-image" src="img./Rectangle 3 (1).PNG" height="399px" width="1170px" alt="">
+    </main>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> 
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance:'60px',
+            duration:2500,
+            delay:300
+         });
+
+         ScrollReveal().reveal('.para', { delay: 500,origin:'top' });
+         ScrollReveal().reveal('.a10', { delay: 500,origin:'top' });
+         ScrollReveal().reveal('.a12', { delay: 300,origin:'left' });
+         ScrollReveal().reveal('.a11', { delay: 500,origin:'right' });
+         ScrollReveal().reveal('.main-img', { delay: 200,origin:'top' });
+         ScrollReveal().reveal('.a5', { delay: 300,origin:'left' });
+         ScrollReveal().reveal('.a6', { delay: 300,origin:'left' });
+         ScrollReveal().reveal('.a1', { delay: 300,origin:'left' });
+         ScrollReveal().reveal('.a2', { delay: 300,origin:'top' });
+         ScrollReveal().reveal('.a3', { delay: 300,origin:'bottom' });
+         ScrollReveal().reveal('.a4', { delay: 300,origin:'right' });
+         ScrollReveal().reveal('.article-1', { delay: 300,origin:'left' });
+         ScrollReveal().reveal('.article-2', { delay: 300,origin:'top' });
+         ScrollReveal().reveal('.article-3', { delay: 300,origin:'bottom' });
+         ScrollReveal().reveal('.article-4', { delay: 300,origin:'right' });
+         ScrollReveal().reveal('.headline', { delay: 500,origin:'left' });
+         ScrollReveal().reveal('.Chair', { delay: 200,origin:'left' });
+         ScrollReveal().reveal('.Cabinet', { delay: 200,origin:'top' });
+         ScrollReveal().reveal('.Table', { delay: 200,origin:'bottom' });
+         ScrollReveal().reveal('.Lamp', { delay: 200,origin:'right' });
+         ScrollReveal().reveal('.content', { delay: 500,origin:'right' });
+         ScrollReveal().reveal('.highlight', { delay: 500,origin:'right' });
+         ScrollReveal().reveal('.a7', { delay: 500,origin:'right' });
+         ScrollReveal().reveal('.button', { delay: 500,origin:'right' });
+         ScrollReveal().reveal('.footer-section1', { delay: 500,origin:'left' });
+         ScrollReveal().reveal('.footer-section2', { delay: 500,origin:'top' });
+         ScrollReveal().reveal('.footer-section3', { delay: 500,origin:'top' });
+         ScrollReveal().reveal('.footer-section4', { delay: 500,origin:'right' });
+         ScrollReveal().reveal('.a8', { delay: 400,origin:'right' });
+         ScrollReveal().reveal('.a9', { delay: 400,origin:'right' });
+         ScrollReveal().reveal('.footer-image', { delay: 300,origin:'top' });
+
+
+    </script>
+</body>
+</html>
